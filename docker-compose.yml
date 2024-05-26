@@ -1,0 +1,6 @@
+﻿services:
+  framex:
+    image: framex
+    build:
+      context: .
+      dockerfile: Framex/Dockerfile

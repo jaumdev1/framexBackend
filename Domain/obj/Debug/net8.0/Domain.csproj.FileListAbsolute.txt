@@ -1,0 +1,11 @@
+/home/jaum/RiderProjects/Framex/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/jaum/RiderProjects/Framex/Domain/bin/Debug/net8.0/Domain.dll
+/home/jaum/RiderProjects/Framex/Domain/bin/Debug/net8.0/Domain.pdb
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/Domain.dll
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/Domain.pdb
+/home/jaum/RiderProjects/Framex/Domain/obj/Debug/net8.0/ref/Domain.dll

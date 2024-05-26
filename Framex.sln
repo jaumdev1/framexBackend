@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framex", "Framex\Framex.csproj", "{9E6FB481-892E-43D8-8A17-6597CF540F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD52AE6D-5D67-4693-A6D7-CF3BC8326179}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{13C1C9A1-D17D-4217-BF44-7F68C7EFB5A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{79B9BE17-E64C-4CE7-A920-046140735DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E6FB481-892E-43D8-8A17-6597CF540F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6FB481-892E-43D8-8A17-6597CF540F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6FB481-892E-43D8-8A17-6597CF540F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6FB481-892E-43D8-8A17-6597CF540F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C1C9A1-D17D-4217-BF44-7F68C7EFB5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C1C9A1-D17D-4217-BF44-7F68C7EFB5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C1C9A1-D17D-4217-BF44-7F68C7EFB5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C1C9A1-D17D-4217-BF44-7F68C7EFB5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B9BE17-E64C-4CE7-A920-046140735DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B9BE17-E64C-4CE7-A920-046140735DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B9BE17-E64C-4CE7-A920-046140735DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B9BE17-E64C-4CE7-A920-046140735DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@Framex_HostAddress = http://localhost:5036
+
+GET {{Framex_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

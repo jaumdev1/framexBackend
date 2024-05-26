@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jaum/RiderProjects/Framex/Framex/Framex.csproj": {}
+  },
+  "projects": {
+    "/home/jaum/RiderProjects/Framex/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jaum/RiderProjects/Framex/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/jaum/RiderProjects/Framex/Application/Application.csproj",
+        "packagesPath": "/home/jaum/.nuget/packages/",
+        "outputPath": "/home/jaum/RiderProjects/Framex/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jaum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj": {
+                "projectPath": "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.4.24266.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj",
+        "packagesPath": "/home/jaum/.nuget/packages/",
+        "outputPath": "/home/jaum/RiderProjects/Framex/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jaum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jaum/RiderProjects/Framex/Framex/Framex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jaum/RiderProjects/Framex/Framex/Framex.csproj",
+        "projectName": "Framex",
+        "projectPath": "/home/jaum/RiderProjects/Framex/Framex/Framex.csproj",
+        "packagesPath": "/home/jaum/.nuget/packages/",
+        "outputPath": "/home/jaum/RiderProjects/Framex/Framex/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jaum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jaum/RiderProjects/Framex/Application/Application.csproj": {
+                "projectPath": "/home/jaum/RiderProjects/Framex/Application/Application.csproj"
+              },
+              "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj": {
+                "projectPath": "/home/jaum/RiderProjects/Framex/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
